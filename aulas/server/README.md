@@ -1,6 +1,6 @@
 # NLW - DIA 2 - BACK-END
 
-## Criando projeto
+### Criando projeto
 Dentro da pasta desejada:
 - Iniciar o projeto: 
     - `yarn init -y`
@@ -12,8 +12,26 @@ Dentro da pasta desejada:
 - Para que o node entenda o typescript:
     - `yarn add ts-node-dev -D`.
 
-# Express
+### Express
 Micro-framework que _fornece um conjunto robusto de recursos para aplicativos web e móvel_
 - Instalação
     - `yarn add express`;
     - `yarn add express`;
+
+### SQLite - KNEX
+Knex: Fornce a facilidade de manipular os dados SQL com js (a mesma idéia do sequelize);
+_Migrations - controlam a versão do banco de dados_
+
+- `yarn add knex sqlite3`
+
+
+## Funcionalidades
+
+## Conexões
+- Rota para listar total de conexões realizadas;
+- Rota para criar uma nova conexão.
+
+## Aulas
+- Rota para criar uma aula;
+- Rota para listar aulas;
+    - Filtrar por matéria, dia da semana e horário;
